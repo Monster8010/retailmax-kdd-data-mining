@@ -35,6 +35,11 @@ RetailMax presenta una caida simulada del 8% en el ticket promedio interanual. E
 │   └── Indicaciones_Mineria.pdf
 ├── metrics/
 │   └── metricas_calidad_kdd_2026.json
+├── extras/
+│   └── ejercicios-mineria-python/
+│       └── Mineria1Ejercicios/
+│           ├── notebooks/
+│           └── requirements.txt
 ├── src/
 │   └── pipeline_kdd_2026.py
 ├── requirements.txt
@@ -93,6 +98,10 @@ El proyecto genera un esquema estrella compuesto por:
 ## Tecnologias y metodos
 
 Python, pandas, NumPy, ETL, EDA, KDD, OLAP, esquema estrella, SQL/MySQL.
+
+## Material complementario
+
+La carpeta `extras/ejercicios-mineria-python/` contiene notebooks practicos de KDD, ETL/OLAP y EDA, junto con visualizaciones generadas durante el curso. El archivo original `Ejercicios_Mineria_Python.rar` incluia un entorno virtual `.venv`; no se versiona porque GitHub rechaza archivos grandes y los entornos se reconstruyen desde `requirements.txt`.
 
 ## Autor
 
