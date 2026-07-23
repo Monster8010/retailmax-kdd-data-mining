@@ -94,12 +94,9 @@ El proyecto genera un esquema estrella compuesto por:
 
 Python, pandas, NumPy, ETL, EDA, KDD, OLAP, esquema estrella, SQL/MySQL.
 
-## Autores
+## Autor
 
 - Alvarado San Juan Antonio
-- Martinez Tovar Erik Santiago
-- Ramirez Lara Brenda Dominic
-- Silva Suarez Anthony Joshua Efren
 
 Materia: Mineria de Datos (7CM77)  
 Unidad: UPIICSA - IPN  
