@@ -1,0 +1,21 @@
+producto_sk,producto_id,producto,categoria,subcategoria,marca,precio_ref
+1,P001,Laptop,Cómputo,Portátiles,Dell,15000.0
+2,P002,Monitor,Cómputo,Periféricos,LG,4500.0
+3,P003,Teclado,Accesorios,Periféricos,Logitech,800.0
+4,P004,Mouse,Accesorios,Periféricos,Logitech,350.0
+5,P005,USB,Accesorios,Almacenamiento,Kingston,200.0
+6,P006,Audífonos,Accesorios,Audio,Sony,1200.0
+7,P007,Tablet,Cómputo,Portátiles,Samsung,8000.0
+8,P008,Smartwatch,Accesorios,Wearables,Apple,5000.0
+9,P009,Webcam,Accesorios,Video,Logitech,900.0
+10,P010,Micrófono,Accesorios,Audio,Blue,1500.0
+11,P011,SSD Externo,Accesorios,Almacenamiento,WD,1800.0
+12,P012,Hub USB,Accesorios,Conectividad,Anker,400.0
+13,P013,Silla Gamer,Accesorios,Mobiliario,DXRacer,6000.0
+14,P014,Pad Mouse,Accesorios,Periféricos,SteelSeries,350.0
+15,P015,Laptop Sleeve,Accesorios,Protección,Tucano,450.0
+16,P016,Cable HDMI,Accesorios,Conectividad,Belkin,180.0
+17,P017,Cargador USB-C,Accesorios,Energía,Aukey,350.0
+18,P018,Soporte Laptop,Accesorios,Mobiliario,Rain Design,1200.0
+19,P019,Lámpara LED,Accesorios,Iluminación,BenQ,1100.0
+20,P020,Filtro Privacidad,Accesorios,Protección,3M,700.0

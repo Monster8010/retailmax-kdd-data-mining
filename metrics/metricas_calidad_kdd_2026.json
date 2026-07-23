@@ -1,0 +1,123 @@
+{
+  "proyecto": "RetailMax KDD 2026",
+  "pipeline_version": "1.0",
+  "fecha_ejecucion": "2026-07-23 13:02:27",
+  "autores": [
+    "Alvarado San Juan Antonio",
+    "Martínez Tovar Erik Santiago",
+    "Ramírez Lara Brenda Dominic",
+    "Silva Suárez Anthony Joshua Efrén"
+  ],
+  "configuracion_antiplagio": {
+    "sector": "Minorista de tecnología y accesorios",
+    "patron_ventas": "Picos en meses 3, 6 y 9",
+    "nulos_segmento": "7.3% en segmento_cliente",
+    "segmentacion": [
+      "PyME",
+      "Empresa",
+      "Individual",
+      "DESCONOCIDO"
+    ]
+  },
+  "fase_1": {
+    "problema_negocio": "Caída del 8% en ticket promedio interanual",
+    "objetivo_analitico": "Identificar combinaciones de productos y segmentos de cliente que aumenten el ticket promedio en 12% en 6 meses, sin cambios en precios ni campañas publicitarias masivas",
+    "metricas_exito": {
+      "ticket_promedio_meta": "+12%",
+      "reduccion_tickets_bajos_meta": "-15%",
+      "ventas_cruzadas_meta": "+20%"
+    },
+    "restricciones": [
+      "Sin inversión en nuevas herramientas > $500",
+      "Sin cambios de precios",
+      "Sin campañas masivas de marketing",
+      "Sin acceso a datos demográficos detallados"
+    ]
+  },
+  "fase_2": {
+    "registros_crudos": 50000,
+    "columnas_originales": [
+      "id_transaccion",
+      "fecha",
+      "mes",
+      "id_cliente",
+      "segmento_cliente",
+      "producto",
+      "categoria",
+      "precio_unitario",
+      "cantidad",
+      "metodo_pago",
+      "tienda",
+      "total_ticket"
+    ],
+    "periodo": "2026-01-01 a 2026-12-27",
+    "nulos_por_columna": {
+      "id_transaccion": 0,
+      "fecha": 0,
+      "mes": 0,
+      "id_cliente": 0,
+      "segmento_cliente": 3649,
+      "producto": 0,
+      "categoria": 0,
+      "precio_unitario": 0,
+      "cantidad": 0,
+      "metodo_pago": 0,
+      "tienda": 0,
+      "total_ticket": 0
+    },
+    "pct_nulos_segmento": 7.3,
+    "ticket_promedio_bruto": 2503.37,
+    "mes_con_mayor_volumen": 6
+  },
+  "limpieza": {
+    "registros_entrada": 50000,
+    "canceladas_eliminadas": 12377,
+    "montos_invalidos_eliminados": 0,
+    "duplicados_eliminados": 0,
+    "nulos_segmento_imputados": 2747,
+    "registros_salida": 37623,
+    "tasa_retencion_pct": 75.25
+  },
+  "outliers": {
+    "umbral_iqr_superior": 7799.1,
+    "n_outliers_marcados": 232,
+    "pct_outliers": 0.62
+  },
+  "enriquecimiento": {
+    "variables_derivadas": [
+      "mes",
+      "anio",
+      "trimestre",
+      "dia_semana",
+      "semana_anio",
+      "ticket_alto",
+      "ticket_bajo",
+      "canal_digital",
+      "es_pico_temporada",
+      "subcategoria"
+    ],
+    "ticket_alto_umbral_pct75": 3699.16,
+    "ticket_bajo_umbral": 100.0,
+    "n_pico_temporada": 14430,
+    "n_canal_digital": 18743
+  },
+  "esquema_estrella": {
+    "fact_ventas_registros": 37623,
+    "dim_tiempo_registros": 324,
+    "dim_producto_registros": 20,
+    "dim_cliente_registros": 4,
+    "dim_canal_registros": 17,
+    "dim_tienda_registros": 50,
+    "nulos_en_llaves_foraneas": {
+      "tiempo_sk": 0,
+      "producto_sk": 0,
+      "cliente_sk": 0,
+      "canal_sk": 0,
+      "tienda_sk": 0
+    },
+    "consistencia_dimensional": true,
+    "ticket_promedio_limpio": 2508.3,
+    "segmento_mayor_ticket": "PyME",
+    "mes_pico_real": 6
+  }
+}

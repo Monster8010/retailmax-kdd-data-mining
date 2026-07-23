@@ -1,0 +1,51 @@
+tienda_sk,store_id,tienda,zona,region
+1,T001,CDMX,Norte,Centro
+2,T002,CDMX,Sur,Centro
+3,T003,CDMX,Oriente,Centro
+4,T004,CDMX,Poniente,Centro
+5,T005,CDMX,Centro,Centro
+6,T006,CDMX,Tlalpan,Centro
+7,T007,CDMX,Coyoacán,Centro
+8,T008,CDMX,Xochimilco,Centro
+9,T009,CDMX,Azcapotzalco,Centro
+10,T010,CDMX,Iztapalapa,Centro
+11,T011,Monterrey,Centro,Norte
+12,T012,Monterrey,Sur,Norte
+13,T013,Monterrey,Norte,Norte
+14,T014,Monterrey,Oriente,Norte
+15,T015,Monterrey,Poniente,Norte
+16,T016,Monterrey,Escobedo,Norte
+17,T017,Monterrey,Apodaca,Norte
+18,T018,Monterrey,Guadalupe,Norte
+19,T019,Monterrey,San Pedro,Norte
+20,T020,Monterrey,Garza García,Norte
+21,T021,Guadalajara,Centro,Occidente
+22,T022,Guadalajara,Sur,Occidente
+23,T023,Guadalajara,Norte,Occidente
+24,T024,Guadalajara,Este,Occidente
+25,T025,Guadalajara,Oeste,Occidente
+26,T026,Guadalajara,Tlaquepaque,Occidente
+27,T027,Guadalajara,Tonalá,Occidente
+28,T028,Guadalajara,Zapopan,Occidente
+29,T029,Guadalajara,Tlajomulco,Occidente
+30,T030,Guadalajara,El Salto,Occidente
+31,T031,Puebla,Centro,Sur
+32,T032,Puebla,Norte,Sur
+33,T033,Mérida,Centro,Sur
+34,T034,Mérida,Norte,Sur
+35,T035,Tijuana,Centro,Norte
+36,T036,Tijuana,Sur,Norte
+37,T037,León,Centro,Centro
+38,T038,León,Norte,Centro
+39,T039,Querétaro,Centro,Centro
+40,T040,Querétaro,Sur,Centro
+41,T041,Cancún,Centro,Sur
+42,T042,Cancún,Norte,Sur
+43,T043,Veracruz,Centro,Sur
+44,T044,Oaxaca,Centro,Sur
+45,T045,Chihuahua,Centro,Norte
+46,T046,Hermosillo,Centro,Norte
+47,T047,Culiacán,Centro,Norte
+48,T048,Acapulco,Centro,Sur
+49,T049,Morelia,Centro,Centro
+50,T050,San Luis Potosí,Centro,Centro
